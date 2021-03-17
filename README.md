@@ -28,3 +28,6 @@ Primero actualizamos nuestro entorno y luego instalamos nodejs
 - CocInstall coc-pairs
 
 ### Install Kite
+- If using Linux o WSL use the command: bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+- If using Windows or OS download from kite's web page
+
