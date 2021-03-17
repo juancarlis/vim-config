@@ -23,5 +23,8 @@ Primero actualizamos nuestro entorno y luego instalamos nodejs
 - sudo apt-get install nodejs
 - sudo apt-get install npm
 
-### Instalamos paquetes de idiomas de coc mediante comando: CocInstall:
+### Install coc packages with CocInstall
 - CocInstall coc-json coc-tsserver coc-html coc-css coc-python
+- CocInstall coc-pairs
+
+### Install Kite
