@@ -26,6 +26,23 @@ Primero actualizamos nuestro entorno y luego instalamos nodejs
 ### Install coc packages with CocInstall
 - CocInstall coc-json coc-tsserver coc-html coc-css coc-python
 - CocInstall coc-pairs
+- CocConfig setup: 
+```
+{
+  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"],
+  "suggest.noselect": false, 
+  "coc.preferences.formatOnSaveFileTypes": [
+    "javascript",
+    "typecript",
+    "typescriptreact",
+    "json", 
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql",
+    "python"
+  ]
+}
+```
 
 ### Install Kite
 - If using Linux o WSL use the command: bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
