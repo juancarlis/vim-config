@@ -30,4 +30,5 @@ Primero actualizamos nuestro entorno y luego instalamos nodejs
 ### Install Kite
 - If using Linux o WSL use the command: bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
 - If using Windows or OS download from kite's web page
+- Follow https://github.com/kiteco/vim-plugin/blob/master/DEVELOPMENT.md to configure kite once installed
 
