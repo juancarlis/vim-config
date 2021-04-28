@@ -49,3 +49,9 @@ Primero actualizamos nuestro entorno y luego instalamos nodejs
 - If using Windows or OS download from kite's web page
 - Follow https://github.com/kiteco/vim-plugin/blob/master/DEVELOPMENT.md to configure kite once installed
 
+### WSL yank support
+Install gvim: 
+```
+sudo apt-get install vim-gtk
+```
+
