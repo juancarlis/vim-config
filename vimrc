@@ -109,6 +109,9 @@ endif
 " vim-airline configuration
 let g:airline#extensions#tabline#enabled = 1
 
+" kite
+let g:kite_supported_languages = ['javascript', 'python']
+
 " coc
 autocmd FileType python let b:coc_suggest_disable = 1
 autocmd FileType javascript let b:coc_suggest_disable = 1
@@ -176,3 +179,13 @@ autocmd GUIEnter * set visualbell t_vb=
 
 "tab with spaces in html
 autocmd BufRead,BufNewFile *.htm,*.html setlocal tabstop=2 shiftwidth=2 softtabstop=2
+
+
+" WSL yank support
+let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
+if executable(s:clip)
+    augroup WSLYank
+        autocmd!
+        autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+    augroup END
+endif
