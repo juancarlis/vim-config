@@ -189,3 +189,7 @@ if executable(s:clip)
         autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
     augroup END
 endif
+
+" Toggle highlighting in Nvim
+set hlsearch!
+nnoremap <F3> :set hlsearch!<CR>
