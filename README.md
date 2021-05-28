@@ -29,20 +29,29 @@ Primero actualizamos nuestro entorno y luego instalamos nodejs
 - CocConfig setup: 
 ```
 {
-  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"],
-  "suggest.noselect": false, 
-  "coc.preferences.formatOnSaveFileTypes": [
-    "javascript",
-    "typecript",
-    "typescriptreact",
-    "json", 
-    "javascriptreact",
-    "typescript.tsx",
-    "graphql",
-    "python"
-  ]
+	"pairs.enableCharacters": [
+		"(",
+		"[",
+		"{",
+		"'",
+		"\"",
+		"`"
+	],
+	"suggest.noselect": false,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"typescript",
+		"typescriptreact",
+		"json",
+		"javascriptreact",
+		"typescript.tsx",
+		"graphql",
+		"python"
+	],
+	"python.jediEnabled": false
 }
 ```
+- *"python.jediEnabled":false* is in test
 
 ### Install Kite
 - If using Linux o WSL use the command: bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
