@@ -55,3 +55,19 @@ Install gvim:
 sudo apt-get install vim-gtk
 ```
 
+### For NeoVim config
+```
+sudo apt-get install neovim
+
+```
+If ~/.config/nvim/init.vim we have to create it:
+```
+mkdir ~/.config/nvim
+touch ~/.config/nvim/init.vim
+```
+Edit init.vim with:
+```
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath=&runtimepath
+source /etc/vim/vimrc
+```
