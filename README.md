@@ -11,9 +11,13 @@ In VIM main folder - In my case: /etc/vim - set full permissions to vimrc with c
 ### Install Pluggin Manager
 
 Using PLUG from web https://github.com/junegunn/vim-plug
-
+```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  
+ ```
+Run Install
+```
+:PlugInstall
+```
 
 
 ### On error: [coc.nvim] "node" is not executable, checkout https://nodejs.org/en/download/
