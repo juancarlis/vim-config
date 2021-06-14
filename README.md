@@ -64,7 +64,7 @@ Install gvim:
 sudo apt-get install vim-gtk
 ```
 
-### For NeoVim config
+### NeoVim config
 ```
 sudo apt-get install neovim
 
