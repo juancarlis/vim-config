@@ -22,10 +22,12 @@ Run Install
 
 ### On error: [coc.nvim] "node" is not executable, checkout https://nodejs.org/en/download/
 Primero actualizamos nuestro entorno y luego instalamos nodejs
-- sudo apt-get update
-- sudo apt-get upgrade
-- sudo apt-get install nodejs
-- sudo apt-get install npm
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nodejs
+sudo apt-get install npm
+ ```
 
 ### Install coc packages with CocInstall
 - CocInstall coc-json coc-tsserver coc-html coc-css coc-python
