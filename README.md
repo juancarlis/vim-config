@@ -30,7 +30,7 @@ sudo apt-get install npm
  ```
 
 ### Install coc packages with CocInstall
-- CocInstall coc-json coc-tsserver coc-html coc-css coc-python
+- CocInstall coc-json coc-tsserver coc-html coc-css coc-python coc-pyright
 - CocInstall coc-pairs
 - CocConfig setup: 
 ```
