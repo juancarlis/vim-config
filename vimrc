@@ -103,18 +103,18 @@ inoremap <silent><expr> <c-space> coc#refresh()
 " Use 256 colors in terminal
 if !has("gui_running")
      set t_Co=256
-     set term=screen-256color
+     " set term=screen-256color
 endif
 
 " vim-airline configuration
 let g:airline#extensions#tabline#enabled = 1
 
 " kite
-let g:kite_supported_languages = ['javascript', 'python']
+" let g:kite_supported_languages = ['javascript', 'python']
 
 " coc
-autocmd FileType python let b:coc_suggest_disable = 1
-autocmd FileType javascript let b:coc_suggest_disable = 1
+" autocmd FileType python let b:coc_suggest_disable = 1
+" autocmd FileType javascript let b:coc_suggest_disable = 1
 autocmd FileType scss setl iskeyword+=@-@
 
 nmap <silent> gd <Plug>(coc-definition)
